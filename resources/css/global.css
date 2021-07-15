@@ -1,0 +1,75 @@
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+html {
+    /*height: 100%;*/
+}
+
+body {
+    /*overflow: hidden;*/
+    /*height: 100%;*/
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body {
+    background: rgb(31, 3, 34);
+    background: linear-gradient(45deg, rgba(31, 3, 34, 1) 40%, rgba(42, 157, 143, 1) 100%);
+}
+
+.btn-primary {
+    border-color: #2A9D8F;
+    background-color: #2A9D8F;
+}
+
+.btn-primary:hover {
+    border-color: #264653;
+    background-color: #264653;
+}
+
+.btn-primary:focus {
+    border-color: #264653;
+    background-color: #264653;
+}
+
+.btn-primary:disabled {
+    border-color: #2A9D8F;
+    background-color: #2A9D8F;
+}
+
+.btn-primary:disabled:hover {
+    border-color: #264653;
+    background-color: #264653;
+}
+
+.btn-secondary {
+    border-color: #8783D1;
+    background-color: #8783D1;
+}
+
+.btn-secondary:hover {
+    border-color: rgba(31, 3, 34, 1);
+    background-color: rgba(31, 3, 34, 1);
+}
+
+.btn-secondary:focus {
+    border-color: rgba(31, 3, 34, 1);
+    background-color: rgba(31, 3, 34, 1);
+}
+
+.btn-secondary-no-click {
+    pointer-events: none;
+    color: white;
+    border-color: #8783D1;
+    background-color: #8783D1;
+}
+
+.btn-primary-no-click {
+    pointer-events: none;
+    color: white;
+    border-color: #2A9D8F;
+    background-color: #2A9D8F;
+}
